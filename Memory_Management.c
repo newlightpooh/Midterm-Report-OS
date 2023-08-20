@@ -37,6 +37,6 @@ int main() {
     return 0;
 }
 
-// gcc -o malloc malloc.c
-// ./malloc
+// gcc -o Memory_Management Memory_Management.c
+// ./Memory_Management
 
