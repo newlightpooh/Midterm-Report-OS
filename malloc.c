@@ -3,8 +3,8 @@
 
 void recursive_function(int n) {
     int local = n; 
-    printf("Recursive function with n = %d at address %p\n", n, &local);
-
+    printf("Recursive function with n = %d at address %p\n", n, (void*)&local);
+    
     if (n > 0) {
         recursive_function(n - 1);
     }
